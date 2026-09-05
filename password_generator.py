@@ -15,7 +15,7 @@ import secrets
 import string
 from typing import List
 
-from services.password_strength import analyze_password
+from password_strength import analyze_password
 
 LOWER = string.ascii_lowercase
 UPPER = string.ascii_uppercase

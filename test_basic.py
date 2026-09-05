@@ -11,8 +11,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from services.password_generator import generate_password, generate_strong_password
-from services.password_strength import analyze_password
+from password_generator import generate_password, generate_strong_password
+from password_strength import analyze_password
 
 
 def test_empty_password_is_weak():
